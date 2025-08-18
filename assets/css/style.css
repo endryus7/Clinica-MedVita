@@ -234,4 +234,122 @@ menu li:hover {
     padding: 1rem 0rem;
 }
 
+.exames .exames_text a {
+    color: green;
+}
+
+.section_info {
+    max-width: 1200px;
+    margin: auto;
+    height: 600px;
+}
+
+.container_info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4rem;
+}
+
+.card_info {
+    flex-direction: column;
+    width: 500px;
+}
+
+.card_info img {
+    width: 500px;
+}
+
+.card_info h1 {
+    color: green;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.card_info p {
+    padding-bottom: 1rem;
+}
+
+.card_info a {
+    color: green;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.card_info span {
+    padding-left: 5px;
+    font-size: 15px;
+}
+
+footer {
+    background-color: #013D2F;
+    padding: 2rem;
+}
+
+.footer_info {
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    color: #FFF;
+    gap: 80px;
+}
+
+.info {
+    width: 100%;
+}
+
+.info h1 {
+    padding-bottom: 1rem;
+}
+
+.info span {
+    padding-right: 5px;
+}
+
+.info p {
+    padding-bottom: 8px;
+    font-size: 12px;
+}
+
+.contato {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contato h1 {
+    font-size: 1.4rem;
+}
+
+.contato input {
+    padding: 10px;
+    max-width: 340px;
+    background-color: #116E5D;
+    color: #ffffff;
+    border: 1px solid #ffffff9c;
+}
+
+::placeholder {
+    color: #abb3c0;
+    opacity: 1;
+}
+
+.contato .mensagem {
+    padding-bottom: 50px;
+}
+
+.contato button {
+    width: 80px;
+    border: none;
+    background-color: #10B981;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.contato button:hover {
+    background-color: #065F46;
+}
+
+
 
