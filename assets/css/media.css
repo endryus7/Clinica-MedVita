@@ -1,0 +1,36 @@
+@media only screen and (max-width: 1092px) {
+    header {
+        justify-content: space-between;
+        padding: 1.5rem 1rem;
+    }
+
+    #nav_menu {
+        display: flex;
+        border: 1px solid black;
+    }
+
+    .botao_menu {
+        display: none;
+    }
+
+    menu {
+        display: none;
+    }
+
+    .container_sobre {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container_sobre .image_sobre {
+        justify-content: center;
+    }
+
+    .container_info {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        margin-bottom: 3rem;
+    }
+}
