@@ -115,6 +115,7 @@ menu li:hover {
 
 .botao_consulta:hover {
     background-color: #087542;
+    transition: 0.3s;
 }
 
 .botao_conheca {
