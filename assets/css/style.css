@@ -113,6 +113,10 @@ menu li:hover {
     cursor: pointer;
 }
 
+.botao_consulta:hover {
+    background-color: #087542;
+}
+
 .botao_conheca {
     border: 1px solid white;
     border-radius: 10px;

@@ -5,8 +5,10 @@
     }
 
     #nav_menu {
-        display: flex;
-        border: 1px solid black;
+        display: block;
+        font-size: 2rem;
+        cursor: pointer;
+        z-index: 1001;
     }
 
     .botao_menu {
@@ -14,6 +16,40 @@
     }
 
     menu {
+        position: absolute;
+        top: 0;
+        margin-top: 6.22rem;
+        right: -110%;
+        height: 280px;
+        width: 100%;
+        
+        background: #fff;
+        box-shadow: 2px 0 12px rgba(0,0,0,0.15);
+        transition: right 0.3s ease;
+        padding: 1rem 2rem 2rem;
+        z-index: 1000;
+    }
+
+    menu.active {
+        right: 0;
+    }
+
+    menu ul {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    menu a li {
+        font-weight: 600;
+        padding: 0.5rem 0;
+    }
+
+    menu a li:hover {
+        color: #049162;
+    }
+
+    .botao_menu {
         display: none;
     }
 
