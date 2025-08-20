@@ -17,6 +17,9 @@
     <link rel="stylesheet" href="assets/css/especialidades.css">
     <link rel="stylesheet" href="assets/css/media.css">
 
+    <!-- JS -->
+    <script src="assets/js/script.js" defer></script>
+
     <title>Clínica MedVita</title>
 </head>
 <body>
@@ -285,25 +288,5 @@
             </div>
         </div>
     </footer>
-
-    <script>
-        const navMenu = document.getElementById("nav_menu");
-        const menuPainel = document.querySelector("menu");
-
-        navMenu.addEventListener("click", () => {
-        const abrir = menuPainel.classList.toggle("active");
-
-        navMenu.classList.toggle("bi-list", !abir);
-        navMenu.classList.toggle("bi-x", abir);
-    });
-
-    document.querySelectorAll("menu a").forEach(link => {
-        link.addEventListener("click", () => {
-        menuPainel.classList.remove("active");
-        navMenu.classList.add("bi-list");
-        navMenu.classList.remove("bi-x");
-        });
-    });
-</script>
 </body>
 </html>
