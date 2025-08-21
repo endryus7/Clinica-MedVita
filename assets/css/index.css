@@ -387,7 +387,7 @@ footer {
     padding-bottom: 50px;
 }
 
-.contato button {
+.contato .button {
     width: 80px;
     border: none;
     background-color: #10B981;
@@ -396,7 +396,7 @@ footer {
     cursor: pointer;
 }
 
-.contato button:hover {
+.contato .button:hover {
     background-color: #065F46;
 }
 
